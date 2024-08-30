@@ -1,6 +1,7 @@
 Está diseñado para gestionar el registro de asistencias de estudiantes en un colegio, 
 permitiendo a los docentes agregar estudiantes, registrar sus asistencias y mostrar los registros correspondientes. 
-El sistema utiliza la Programación Orientada a Objetos (POO) para organizar la información y las operaciones de manera modular y eficiente.
+El sistema utiliza la Programación Orientada a Objetos (POO) para organizar la información y 
+las operaciones de manera modular y eficiente.
 
 Clases y Funcionalidades
 Clase Estudiante:
@@ -10,7 +11,8 @@ Atributos:
 nombre: Almacena el nombre del estudiante.
 asistencias: Lista que guarda los registros de asistencia del estudiante.
 Métodos:
-registrar_asistencia: Añade un nuevo registro de asistencia a la lista, incluyendo la fecha, el estado de asistencia (por ejemplo, "Asistió", "Permiso", "Inasistencia"), y una razón opcional si aplica.
+registrar_asistencia: Añade un nuevo registro de asistencia a la lista, incluyendo la fecha, 
+el estado de asistencia (por ejemplo, "Asistió", "Permiso", "Inasistencia"), y una razón opcional si aplica.
 mostrar_asistencias: Muestra todos los registros de asistencia del estudiante, detallando la fecha, el estado y la razón si está disponible.
 Clase Docente:
 
