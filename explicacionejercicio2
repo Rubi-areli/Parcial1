@@ -1,0 +1,39 @@
+Está diseñado para gestionar el registro de asistencias de estudiantes en un colegio, 
+permitiendo a los docentes agregar estudiantes, registrar sus asistencias y mostrar los registros correspondientes. 
+El sistema utiliza la Programación Orientada a Objetos (POO) para organizar la información y las operaciones de manera modular y eficiente.
+
+Clases y Funcionalidades
+Clase Estudiante:
+
+Propósito: Representa a un estudiante y gestiona sus registros de asistencia.
+Atributos:
+nombre: Almacena el nombre del estudiante.
+asistencias: Lista que guarda los registros de asistencia del estudiante.
+Métodos:
+registrar_asistencia: Añade un nuevo registro de asistencia a la lista, incluyendo la fecha, el estado de asistencia (por ejemplo, "Asistió", "Permiso", "Inasistencia"), y una razón opcional si aplica.
+mostrar_asistencias: Muestra todos los registros de asistencia del estudiante, detallando la fecha, el estado y la razón si está disponible.
+Clase Docente:
+
+Propósito: Maneja a los estudiantes bajo la supervisión de un docente y gestiona sus registros de asistencia.
+Atributos:
+nombre: Almacena el nombre del docente.
+estudiantes: Lista que contiene los estudiantes asignados al docente.
+Métodos:
+agregar_estudiante: Permite al docente agregar un nuevo estudiante a su lista.
+registrar_asistencia_estudiante: Registra la asistencia de un estudiante específico, buscando al estudiante por su nombre dentro de la lista del docente.
+mostrar_asistencias_estudiantes: Muestra las asistencias de todos los estudiantes bajo la supervisión del docente.
+Función main:
+
+Propósito: Proporciona una interfaz interactiva para que el usuario (el docente o administrador) pueda interactuar con el sistema.
+Funcionamiento:
+Menú Principal: Ofrece opciones para registrar un nuevo docente, agregar estudiantes a un docente, registrar asistencias, mostrar asistencias, y salir del sistema.
+Registrar Nuevo Docente: Permite al usuario agregar un nuevo docente al sistema.
+Agregar Estudiante a Docente: Asigna un estudiante a un docente específico.
+Registrar Asistencia: Permite registrar la asistencia de un estudiante, solicitando la fecha, el estado de asistencia, y una razón si es necesario.
+Mostrar Asistencias: Muestra el registro de asistencias de los estudiantes bajo un docente específico.
+Salir del Sistema: Finaliza la ejecución del programa.
+Justificación del Enfoque
+El uso de POO en este sistema permite organizar la información y las operaciones de manera lógica y eficiente.
+Cada clase encapsula atributos y métodos específicos para su función, lo que facilita la ampliación y el mantenimiento del código. 
+La modularidad del diseño permite gestionar múltiples docentes y estudiantes de manera independiente, 
+asegurando que los registros de asistencia se manejen correctamente y sin confusión.
