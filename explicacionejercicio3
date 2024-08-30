@@ -1,0 +1,58 @@
+Este programa está diseñado para ayudar en la gestión de reservas en un hotel de playa. Se encarga de presentar a los clientes las opciones de habitaciones disponibles, registrar sus datos personales, calcular el costo total de su estadía, incluyendo servicios adicionales solicitados, y generar una factura detallada.
+
+Descripción del Código
+Clases y Objetos
+Clase Habitacion:
+
+Propósito: Representa cada tipo de habitación disponible en el hotel.
+Atributos:
+tipo: Define el tipo de habitación (por ejemplo, "Suite", "Doble").
+precio: Establece el precio por noche de la habitación.
+La clase Habitacion encapsula los detalles básicos de cada tipo de habitación, permitiendo que la información sobre el tipo y el precio se gestione de manera centralizada.
+
+Clase Cliente:
+
+Propósito: Representa a un cliente que realiza una reserva en el hotel.
+
+Atributos:
+
+nombre: Almacena el nombre del cliente.
+apellido: Almacena el apellido del cliente.
+contacto: Almacena el número de contacto del cliente.
+Método nombre_completo: Este método combina el nombre y el apellido del cliente para retornar el nombre completo, que se utiliza para personalizar la factura.
+
+La clase Cliente encapsula la información personal del cliente, lo que facilita su manejo durante el proceso de reserva y facturación.
+
+Clase Hotel:
+
+Propósito: Administra las habitaciones disponibles, maneja las reservas y calcula los costos totales incluyendo los servicios extra.
+
+Atributos:
+
+habitaciones: Una lista que contiene las diferentes habitaciones disponibles en el hotel.
+servicios_extra: Un diccionario que contiene los servicios adicionales disponibles (por ejemplo, "piscina", "cancha de golf") y sus precios correspondientes.
+Métodos:
+
+agregar_habitacion: Permite añadir nuevas habitaciones a la lista del hotel, especificando su tipo y precio.
+mostrar_habitaciones: Muestra al cliente las habitaciones disponibles junto con sus precios.
+reservar_habitacion: Calcula el costo total de la reserva, considerando la cantidad de noches y los servicios extra seleccionados, y genera una factura detallada.
+La clase Hotel centraliza la gestión de las habitaciones y servicios, permitiendo calcular de manera precisa los costos asociados a la estadía del cliente.
+
+Flujo del Programa
+Presentación de Opciones:
+
+El programa inicia mostrando las opciones de habitaciones disponibles en el hotel, permitiendo al cliente seleccionar la habitación deseada.
+Captura de Datos Personales:
+
+Una vez que el cliente elige la habitación, el programa solicita su nombre, apellido y número de contacto, datos que son almacenados en un objeto Cliente.
+Selección de Servicios Extra:
+
+El cliente tiene la opción de seleccionar servicios adicionales, como el uso de la piscina o la cancha de golf. El programa verifica que los servicios solicitados estén disponibles y, de lo contrario, notifica al cliente.
+Generación de Factura:
+
+Finalmente, el programa calcula el costo total de la estadía, incluyendo la habitación y los servicios adicionales. Luego, genera una factura detallada que muestra todos los cargos y el total a pagar.
+Justificación del Enfoque
+El uso de la Programación Orientada a Objetos (POO) en este programa permite organizar la información de manera modular y escalable. Cada clase encapsula datos y comportamientos específicos, lo que facilita la ampliación del sistema para futuras funcionalidades, como la integración de nuevos tipos de habitaciones o servicios adicionales. Además, la separación de responsabilidades entre clases hace que el código sea más fácil de mantener y entender.
+
+Conclusión
+Este programa proporciona una solución eficaz para la gestión de reservas en un hotel, desde la presentación de opciones de habitaciones hasta la generación de facturas detalladas. Su estructura modular permite adaptarse fácilmente a las necesidades del hotel, asegurando un proceso de reserva eficiente y personalizado para cada cliente.
