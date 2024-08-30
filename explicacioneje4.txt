@@ -1,0 +1,22 @@
+Uso de la Programación Orientada a Objetos (POO)
+Clase Producto
+Propósito: Representa un producto en el sistema, con atributos como nombre y precio.
+Justificación: La POO permite encapsular los atributos del producto en una entidad específica, facilitando la gestión y manipulación de estos datos.
+Clase Venta
+Propósito: Maneja las transacciones de venta, permitiendo añadir productos y calcular el total.
+Justificación: Encapsular la lógica de ventas en una clase hace el sistema más modular y fácil de mantener. Permite manejar la adición de productos y el cálculo del total de manera ordenada.
+Clase Proveedor
+Propósito: Representa la relación entre proveedores, productos y precios sugeridos, aunque no se usa directamente en este ejemplo.
+Justificación: Facilita futuras expansiones del sistema relacionadas con proveedores y precios.
+Funcionalidades de Python Utilizadas
+Listas y Tuplas
+Propósito: Almacenan productos disponibles y detalles de ventas.
+Justificación: Permiten manejar colecciones de datos de manera eficiente.
+Bucles y Condicionales
+Propósito: Permiten al usuario ingresar productos y cantidades, y manejar la lógica de cálculo de vuelto.
+Justificación: Facilitan la interacción con el usuario y la toma de decisiones en base a sus entradas.
+Entradas y Salidas
+Propósito: Capturan la entrada del usuario y muestran resultados.
+Justificación: Son esenciales para la interacción del usuario con el sistema de ventas.
+Conclusión
+La solución emplea POO para estructurar el sistema de manera modular, haciendo el código más claro y extensible. Se utiliza Python para manejar la interacción con el usuario y procesar datos, facilitando la implementación y mantenimiento del sistema.

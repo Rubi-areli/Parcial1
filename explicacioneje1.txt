@@ -1,0 +1,25 @@
+ Introducción
+Se desarrolló un sistema para calcular la planilla de pago de empleados, considerando dos tipos de contrato: fijo y por horas. El sistema también incluye un bono para empleados con más de cinco años de antigüedad.
+
+2. Uso de Programación Orientada a Objetos (POO)
+Se utilizó POO para manejar los empleados como objetos. La clase Empleado organiza atributos y métodos relacionados con el cálculo del salario:
+
+Método __init__: Inicializa los atributos del empleado.
+Método calcular_anios_trabajo: Calcula los años trabajados para verificar la elegibilidad del bono.
+Método calcular_pago: Calcula el pago total, incluyendo el bono si corresponde.
+3. Funciones Auxiliares
+Se crearon funciones específicas para ingresar y validar los datos:
+
+ingresar_nombre: Captura el nombre del empleado.
+ingresar_tipo: Valida el tipo de contrato ('fijo' o 'por_horas').
+ingresar_salario_base: Captura y valida el salario base.
+ingresar_comisiones: Captura las comisiones para empleados fijos.
+ingresar_horas_trabajadas: Captura las horas trabajadas para empleados por horas.
+ingresar_fecha_ingreso: Captura y valida la fecha de ingreso.
+4. Justificación
+POO: Permite manejar los empleados de manera estructurada y modular. Cada empleado se modela como un objeto con atributos y métodos, facilitando el manejo de diferentes tipos de empleados y cálculos asociados.
+
+Funciones Auxiliares: Mejoran la legibilidad y la gestión de errores al separar la entrada de datos de la lógica de cálculo. Aseguran que los datos sean correctos antes de realizar cálculos.
+
+5. Conclusión
+La combinación de POO y funciones auxiliares proporciona una solución organizada y escalable para el cálculo de la planilla de pago, garantizando precisión y facilidad de mantenimiento.
